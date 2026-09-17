@@ -24,6 +24,7 @@ A clean, modern platform to play browser games in one place.
 | ----------------- | ------------------------------------------------------------------- | ---------------------------------------------------------------------- |
 | **Neon Snake**    | Modern Snake with smooth animations, contrast fading & neon visuals | [Play](https://souravbanerjeedata.github.io/snake-game-in-javascript/) |
 | **Point & Shoot** | Click/tap flying enemies across 6 enemies & 5 battlefields          | [Play](https://souravbanerjeedata.github.io/point-and-shoot-game/)     |
+| **Leap Runner**   | Fast-paced 2D endless runner — dodge enemies & jump obstacles       | [Play](https://souravbanerjeedata.github.io/leap-runner/)              |
 
 ---
 

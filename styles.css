@@ -221,6 +221,36 @@ body {
   filter: drop-shadow(0 0 8px rgba(255, 46, 99, 0.5));
 }
 
+.preview-runner {
+  background: radial-gradient(ellipse at center, #1a2a1a 0%, #05050f 70%);
+}
+
+.preview-runner .runner-visual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.preview-runner .runner-emoji {
+  font-size: 2rem;
+  filter: drop-shadow(0 0 8px rgba(0, 245, 212, 0.4));
+  animation: run-bounce 0.6s ease-in-out infinite alternate;
+}
+
+.preview-runner .runner-ground {
+  width: 70px;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, #00f5d4, transparent);
+  border-radius: 2px;
+  opacity: 0.6;
+}
+
+@keyframes run-bounce {
+  from { transform: translateY(0); }
+  to { transform: translateY(-6px); }
+}
+
 .card-body {
   padding: 0.95rem 1.05rem 1.1rem;
   display: flex;

@@ -36,6 +36,20 @@ const games = [
       </div>
     `,
   },
+  {
+    id: "leap-runner",
+    title: "Leap Runner",
+    description:
+      "A fast-paced 2D side-scrolling endless runner. Dodge enemies, jump over obstacles, and see how high you can score!",
+    url: "https://souravbanerjeedata.github.io/leap-runner/",
+    previewClass: "preview-runner",
+    previewHTML: `
+      <div class="runner-visual">
+        <span class="runner-emoji">🏃</span>
+        <span class="runner-ground"></span>
+      </div>
+    `,
+  },
 ];
 
 /* ---------- DOM ---------- */
