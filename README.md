@@ -2,7 +2,7 @@
 
 A clean, modern platform to play browser games in one place.
 
-**Live Demo:** [https://souravbanerjeedata.github.io/Arcade-Nexus-Gaming-Hub/](https://souravbanerjeedata.github.io/Arcade-Nexus-Gaming-Hub/)
+**Live Demo:** [here](https://souravbanerjeedata.github.io/Arcade-Nexus-Gaming-Hub/)
 
 ---
 
