@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arcade Nexus — Gaming Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ========== HUB VIEW ========== -->
+  <div id="hub" class="hub">
+    <!-- Animated background -->
+    <div class="bg-grid"></div>
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <header class="header">
+      <div class="logo">
+        <span class="logo-icon">▶</span>
+        <span class="logo-text">ARCADE<span class="accent">NEXUS</span></span>
+      </div>
+      <p class="tagline">Your personal gaming universe</p>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <h1>Choose Your Game</h1>
+        <p>Pick a title and jump straight into the action.</p>
+      </section>
+
+      <section class="games-grid" id="gamesGrid">
+        <!-- Cards injected by JS -->
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Arcade Nexus • Pure gaming fun</p>
+    </footer>
+  </div>
+
+  <!-- ========== GAME PLAYER VIEW ========== -->
+  <div id="player" class="player hidden">
+    <div class="player-header">
+      <button id="backBtn" class="back-btn" aria-label="Back to hub">
+        <span>←</span> Back to Hub
+      </button>
+      <h2 id="playerTitle" class="player-title"></h2>
+      <a id="openExternal" href="#" target="_blank" rel="noopener" class="external-btn" title="Open in new tab">
+        ↗
+      </a>
+    </div>
+    <div class="iframe-wrapper">
+      <iframe id="gameFrame" src="" title="Game" allow="fullscreen"></iframe>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
