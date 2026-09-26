@@ -251,6 +251,49 @@ body {
   to { transform: translateY(-6px); }
 }
 
+
+.preview-endless {
+  background: radial-gradient(ellipse at center, #2a1a0a 0%, #05050f 70%);
+}
+
+.preview-endless .endless-visual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+  width: 100%;
+}
+
+.preview-endless .endless-dog {
+  font-size: 1.8rem;
+  filter: drop-shadow(0 0 8px rgba(255, 180, 50, 0.5));
+  animation: run-bounce 0.55s ease-in-out infinite alternate;
+  z-index: 2;
+}
+
+.preview-endless .endless-enemy {
+  position: absolute;
+  right: 28%;
+  top: 28%;
+  font-size: 1.2rem;
+  filter: drop-shadow(0 0 6px rgba(255, 46, 99, 0.45));
+  animation: enemy-float 1.2s ease-in-out infinite alternate;
+}
+
+.preview-endless .endless-ground {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, #ffb432, transparent);
+  border-radius: 2px;
+  opacity: 0.65;
+}
+
+@keyframes enemy-float {
+  from { transform: translateY(0); }
+  to { transform: translateY(-5px); }
+}
+
 .card-body {
   padding: 0.95rem 1.05rem 1.1rem;
   display: flex;

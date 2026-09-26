@@ -50,6 +50,21 @@ const games = [
       </div>
     `,
   },
+  {
+    id: "endless-runner",
+    title: "City & Forest Runner",
+    description:
+      "Side-scrolling endless runner with two worlds. Roll to destroy enemies for points, dodge or get hit. City → Forest levels, lives, particles & boom effects!",
+    url: "https://souravbanerjeedata.github.io/endless-runner-game-in-js/",
+    previewClass: "preview-endless",
+    previewHTML: `
+      <div class="endless-visual">
+        <span class="endless-dog">🐕</span>
+        <span class="endless-enemy">🕷️</span>
+        <span class="endless-ground"></span>
+      </div>
+    `,
+  },
 ];
 
 /* ---------- DOM ---------- */
