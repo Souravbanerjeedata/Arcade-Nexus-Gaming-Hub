@@ -52,13 +52,16 @@ const games = [
   },
   {
     id: "endless-runner",
-    title: "City & Forest Runner",
+    title: "Endless Runner",
     description:
-      "Side-scrolling endless runner with two worlds. Roll to destroy enemies for points, dodge or get hit. City → Forest levels, lives, particles & boom effects!",
+      "Choose from five worlds—City, Forest, Hills, Mushroom Valley, or Desert Run. Dodge animated enemies, roll to score, and reach 150 points for victory.",
     url: "https://souravbanerjeedata.github.io/endless-runner-game-in-js/",
     previewClass: "preview-endless",
     previewHTML: `
       <div class="endless-visual">
+        <div class="endless-worlds" aria-label="Five destinations">
+          <span>🏙️</span><span>🌲</span><span>⛰️</span><span>🍄</span><span>🏜️</span>
+        </div>
         <span class="endless-dog">🐕</span>
         <span class="endless-enemy">🕷️</span>
         <span class="endless-ground"></span>
