@@ -68,6 +68,79 @@ const games = [
       </div>
     `,
   },
+  {
+    id: "metroidvania",
+    title: "Metroidvania: Escape the Factory",
+    description:
+      "Explore a sprawling factory, unlock abilities, defeat bosses and find your way out. Classic Metroidvania exploration and combat in pure JavaScript.",
+    url: "https://souravbanerjeedata.github.io/Metroidvania/",
+    previewClass: "preview-metroidvania",
+    previewHTML: `
+      <div class="metroid-visual">
+        <span class="metroid-player">🦾</span>
+        <span class="metroid-door">🚪</span>
+      </div>
+    `,
+  },
+  {
+    id: "neon-tetris",
+    title: "Neon Tetris",
+    description:
+      "Classic Tetris reborn with glowing neon blocks, smooth controls and a cyberpunk atmosphere. Clear lines and chase high scores!",
+    url: "https://souravbanerjeedata.github.io/tetris/",
+    previewClass: "preview-tetris",
+    previewHTML: `
+      <div class="tetris-visual">
+        <div class="tetromino">
+          <span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+    `,
+  },
+  {
+    id: "neon-pacman",
+    title: "Neon Pac-Man",
+    description:
+      "A neon-styled Pac-Man with glowing walls, power pellets and classic maze-chasing action. Eat dots, avoid ghosts, and clear the board!",
+    url: "https://souravbanerjeedata.github.io/pacman/",
+    previewClass: "preview-pacman",
+    previewHTML: `
+      <div class="pacman-visual">
+        <span class="pac">🟡</span>
+        <span class="ghost">👻</span>
+      </div>
+    `,
+  },
+  {
+    id: "gorillas",
+    title: "Gorillas — Rooftop Showdown",
+    description:
+      "Classic artillery duel! Two gorillas on city rooftops take turns throwing bananas. Adjust angle and power to hit your opponent.",
+    url: "https://souravbanerjeedata.github.io/gorillas/",
+    previewClass: "preview-gorillas",
+    previewHTML: `
+      <div class="gorillas-visual">
+        <span>🦍</span>
+        <span class="banana">🍌</span>
+        <span>🦍</span>
+      </div>
+    `,
+  },
+  {
+    id: "tic-tac-toe",
+    title: "Tic-Tac-Toe — Paper Edition",
+    description:
+      "Minimal white paper aesthetic with handwriting-style X and O. Feels like two players drawing on a real piece of paper.",
+    url: "https://souravbanerjeedata.github.io/tic-tac-toe/",
+    previewClass: "preview-tictactoe",
+    previewHTML: `
+      <div class="ttt-visual">
+        <span>✕</span>
+        <span>○</span>
+        <span>✕</span>
+      </div>
+    `,
+  },
 ];
 
 /* ---------- DOM ---------- */

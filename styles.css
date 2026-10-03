@@ -308,6 +308,144 @@ body {
   to { transform: translateY(-5px); }
 }
 
+/* ===== NEW GAME PREVIEWS ===== */
+
+/* Metroidvania */
+.preview-metroidvania {
+  background: radial-gradient(ellipse at center, #1a1525 0%, #05050f 70%);
+}
+
+.preview-metroidvania .metroid-visual {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  font-size: 1.8rem;
+}
+
+.preview-metroidvania .metroid-player {
+  filter: drop-shadow(0 0 10px rgba(123, 97, 255, 0.6));
+  animation: run-bounce 0.7s ease-in-out infinite alternate;
+}
+
+.preview-metroidvania .metroid-door {
+  opacity: 0.7;
+  filter: drop-shadow(0 0 6px rgba(0, 245, 212, 0.4));
+}
+
+/* Neon Tetris */
+.preview-tetris {
+  background: radial-gradient(ellipse at center, #0a1a2a 0%, #05050f 70%);
+}
+
+.preview-tetris .tetris-visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.preview-tetris .tetromino {
+  display: grid;
+  grid-template-columns: repeat(2, 18px);
+  grid-template-rows: repeat(2, 18px);
+  gap: 3px;
+}
+
+.preview-tetris .tetromino span {
+  background: #00f5d4;
+  border-radius: 3px;
+  box-shadow: 0 0 8px #00f5d4;
+  animation: pulse 1.6s ease-in-out infinite;
+}
+
+.preview-tetris .tetromino span:nth-child(2) {
+  animation-delay: 0.2s;
+  background: #7b61ff;
+  box-shadow: 0 0 8px #7b61ff;
+}
+
+.preview-tetris .tetromino span:nth-child(3) {
+  animation-delay: 0.4s;
+  background: #ff2e63;
+  box-shadow: 0 0 8px #ff2e63;
+}
+
+.preview-tetris .tetromino span:nth-child(4) {
+  animation-delay: 0.6s;
+  background: #ffb432;
+  box-shadow: 0 0 8px #ffb432;
+}
+
+/* Neon Pac-Man */
+.preview-pacman {
+  background: radial-gradient(ellipse at center, #1a0a1a 0%, #05050f 70%);
+}
+
+.preview-pacman .pacman-visual {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  font-size: 1.9rem;
+}
+
+.preview-pacman .pac {
+  filter: drop-shadow(0 0 10px rgba(255, 220, 50, 0.7));
+  animation: run-bounce 0.5s ease-in-out infinite alternate;
+}
+
+.preview-pacman .ghost {
+  filter: drop-shadow(0 0 8px rgba(255, 46, 99, 0.5));
+  animation: enemy-float 1s ease-in-out infinite alternate;
+}
+
+/* Gorillas */
+.preview-gorillas {
+  background: radial-gradient(ellipse at center, #1a1520 0%, #05050f 70%);
+}
+
+.preview-gorillas .gorillas-visual {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 1.7rem;
+}
+
+.preview-gorillas .banana {
+  font-size: 1.2rem;
+  animation: banana-arc 1.4s ease-in-out infinite;
+  filter: drop-shadow(0 0 6px rgba(255, 180, 50, 0.6));
+}
+
+@keyframes banana-arc {
+  0%, 100% { transform: translateY(0) rotate(-15deg); }
+  50% { transform: translateY(-12px) rotate(15deg); }
+}
+
+/* Tic-Tac-Toe Paper */
+.preview-tictactoe {
+  background: radial-gradient(ellipse at center, #2a2a2a 0%, #05050f 70%);
+}
+
+.preview-tictactoe .ttt-visual {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #e8e8f0;
+  letter-spacing: 0.05em;
+}
+
+.preview-tictactoe .ttt-visual span:nth-child(1),
+.preview-tictactoe .ttt-visual span:nth-child(3) {
+  color: #ff2e63;
+  text-shadow: 0 0 8px rgba(255, 46, 99, 0.5);
+}
+
+.preview-tictactoe .ttt-visual span:nth-child(2) {
+  color: #00f5d4;
+  text-shadow: 0 0 8px rgba(0, 245, 212, 0.5);
+}
+
 .card-body {
   padding: 0.95rem 1.05rem 1.1rem;
   display: flex;

@@ -26,7 +26,11 @@ A clean, modern platform to play browser games in one place.
 | **Point & Shoot** | Click/tap flying enemies across 6 enemies & 5 battlefields | [Play](https://souravbanerjeedata.github.io/point-and-shoot-game/) |
 | **Leap Runner** | Fast-paced 2D endless runner — dodge enemies & jump obstacles | [Play](https://souravbanerjeedata.github.io/leap-runner/) |
 | **Endless Runner** | Choose from City, Forest, Hills, Mushroom Valley, and Desert Run; dodge enemies and roll to score | [Play](https://souravbanerjeedata.github.io/endless-runner-game-in-js/) |
-
+| **Metroidvania: Escape the Factory** | Explore a factory, unlock abilities, defeat bosses and escape | [Play](https://souravbanerjeedata.github.io/Metroidvania/) |
+| **Neon Tetris** | Classic Tetris with glowing neon blocks and cyberpunk vibes | [Play](https://souravbanerjeedata.github.io/tetris/) |
+| **Neon Pac-Man** | Neon-styled Pac-Man with glowing walls and classic maze action | [Play](https://souravbanerjeedata.github.io/pacman/) |
+| **Gorillas — Rooftop Showdown** | Artillery duel — throw bananas across city rooftops | [Play](https://souravbanerjeedata.github.io/gorillas/) |
+| **Tic-Tac-Toe — Paper Edition** | Minimal white paper aesthetic with handwriting-style marks | [Play](https://souravbanerjeedata.github.io/tic-tac-toe/) |
 
 ---
 
